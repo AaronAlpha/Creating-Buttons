@@ -13,7 +13,7 @@ void draw() {
 void keyPressed() {
   
   
-  if (key == 'q' || key == 'Q') exit(); //NOTE: the program is STILL running after quit, but the canvas is gone
+  if (key == 'q' || key == 'Q' || key == 'a' || key == 'A') exit(); //NOTE: the program is STILL running after quit, but the canvas is gone
   
   
 };
